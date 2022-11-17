@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.background {
+    background-color: #ffffff;
+    background-image: linear-gradient(135deg, #dbf1f3 25%, transparent 25%), linear-gradient(225deg, #e3f7f8 25%, transparent 25%), linear-gradient(45deg, #effaff 25%, transparent 25%), linear-gradient(315deg, #ffffff 25%, #e2f5fd 25%);
+    background-position: 4px 0, 4px 0, 0 0, 0 0;
+    background-size: 4px 4px;
+    background-repeat: repeat;
+
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.conteudo {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    margin: 100px 0 30px 0;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    font-size: 25px;
+    margin-right: 10px;
+    letter-spacing: 2px;
+}
+
+input {
+    font-size: 14px;
+    margin-right: 10px;
+    width: 60px;
+    padding: 2px;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(226, 226, 226);
+    border-radius: 4px;
+}
+
+.btn {
+    padding: 5px;
+    background-color: rgb(128, 195, 255);
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 3px rgb(173, 173, 173);
+    cursor: pointer;
+}
+
+.btn:hover {
+    scale: 1.1;
+    transition: .3s;
+}
+
+input:focus {
+    outline: none
+}
+
+p{
+    letter-spacing: 1px;
+    max-width: 1000px;
+    padding: 10px 20px 0 20px;
+    text-align: center;
+}
