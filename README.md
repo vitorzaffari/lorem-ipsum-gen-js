@@ -1,6 +1,6 @@
 
 Gerador de Lorem Ipsum alternativo. Feito para praticar JS
 <br><br>
-<img src='teste.gif' />
+<img width=1000 src='teste.gif' />
 <br><br>
 <em>Esse projeto pertence ao curso de John Smilga onde o foco é a prática de métodos JS</em>
